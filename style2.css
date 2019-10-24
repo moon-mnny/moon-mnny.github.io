@@ -1,0 +1,34 @@
+header {
+    position: fixed;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.wrap-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.wrap-container > * {
+    flex: 1 100%;
+}
+.flex-1{
+    flex: 1;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.flex-2 {
+    flex: 2;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+footer {
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
