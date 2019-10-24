@@ -102,17 +102,23 @@ img {
   padding: 5px;
   line-height: 1.5em;
 }
-.menu-link li {
+.menu-link li a{
   font-family: 'PT Serif', serif;
   font-size: 12pt;
   letter-spacing: 3px;
   color:  #404040;
   padding: 2px;
+  text-decoration: none;
 }
 .menu-link li:hover {
   color:rgb(203, 234, 252);
   background-color: #5193c9;
 }
+.menu-link li a:hover {
+  color:rgb(203, 234, 252);
+  background-color: #5193c9;
+}
+
 /* Contact style */
 .contact {
   text-align: center;
