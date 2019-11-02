@@ -1,5 +1,5 @@
 html {
-
+  font-family: "PT Serif", serif;
 }
 
 body {
@@ -18,25 +18,24 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100VW;
+  width: 100vw;
   z-index: 9999;
   padding: 10px 20px;
   display: block;
   background-color: #f2f2f0;
   box-shadow: 0px 2px 10px rgb(203, 234, 252);
 }
-header .wrapper{
+header .wrapper {
   position: relative;
 }
 h1 {
-  font-family: 'DM Serif Text', serif;
+  /* font-family: 'DM Serif Text', serif; */
   font-size: 20pt;
   color: #7c7c7c;
   padding-top: 0;
   letter-spacing: 2px;
 }
 .header-menu {
-
 }
 
 /* Site Content Style */
@@ -44,7 +43,7 @@ h1 {
 .site-content {
   display: block;
 }
-.site-content::before, {
+.site-content::before {
   content: "";
   display: table;
   table-layout: fixed;
@@ -55,7 +54,7 @@ h1 {
   flex-flow: row wrap;
 }
 .wrap-container > * {
-    flex: 1 100%;
+  flex: 1 100%;
 }
 
 .wrapper {
@@ -68,9 +67,9 @@ h1 {
   position: relative;
 }
 .mainimage {
-    object-fit: cover;
-    width: 63.6VW;
-    height: 70VH;
+  object-fit: cover;
+  width: 63.6vw;
+  height: 70vh;
 }
 img {
   object-fit: cover;
@@ -100,64 +99,63 @@ img {
 .menu {
   text-align: right;
   padding: 5px;
-  line-height: 1.5em;
+  line-height: 1.3em;
 }
-.menu-link li a{
-  font-family: 'PT Serif', serif;
-  font-size: 12pt;
+.menu-link li a {
+  font-family: "Satisfy", cursive;
+  font-size: 10pt;
   letter-spacing: 3px;
-  color:  #404040;
+  color: #404040;
   padding: 2px;
   text-decoration: none;
 }
 .menu-link li:hover {
-  color:rgb(203, 234, 252);
+  color: rgb(203, 234, 252);
   background-color: #5193c9;
 }
 .menu-link li a:hover {
-  color:rgb(203, 234, 252);
+  color: rgb(203, 234, 252);
   background-color: #5193c9;
 }
 
 /* Contact style */
 .contact {
   text-align: center;
-  width:100%;
+  width: 100%;
 }
 .contact-info {
   text-align: center;
-  width:100%;
+  width: 100%;
 }
 .contact-info a {
   text-decoration: none;
-  color:#404040;
+  color: #404040;
 }
 .contact-info a:hover {
-  color:#5193c9;
-  
+  color: #5193c9;
 }
 /* column size */
 .clearfix::after {
-    content:"";
-    display: block;
-    clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 .row {
   max-width: 1500px;
 }
-.flex-1{
-    flex: 1;
-    margin: 5px;
+.flex-1 {
+  flex: 1;
+  margin: 5px;
 }
 .flex-2 {
-    flex: 2;
-    margin: 5px;
+  flex: 2;
+  margin: 5px;
 }
 footer {
-  width: 100VW;
-    position: absolute;
-    bottom: 0px;
-    padding: 10px;
-    text-align: center;
-    font-size:8pt;
+  width: 100vw;
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+  text-align: center;
+  font-size: 8pt;
 }
